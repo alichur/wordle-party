@@ -1,0 +1,18 @@
+.tiles {
+    animation: party 1s 2;
+}
+
+
+@keyframes party {
+    0% {
+        opacity: 0.5;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.5;
+    }
+}
